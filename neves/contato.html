@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Produtos</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styleContato.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <!--
+                <h1><img src="logo.png" alt="OFicina de fuscas do marcão"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav> -->
+            </div>
+            <img src="cat.png" class="gatoimg">
+            <div>
+                <a href="index.html"><button>HOME</button></a> 
+                <a href="produtos.html"><button>+ INFO</button></a>
+                <a href="contato.html"><button>LOGIN</button></a>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input class="input-padrao" type="text" id="nomesobrenome" required>
+
+                <label for="email">Email</label>
+                <input class="input-padrao" type="email" id="email" required placeholder="seuemal@dominio.com.br">
+
+                <label for="telefone">Telefone</label>
+                <input class="input-padrao" type="tel" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea class="input-padrao" cols="70" rows="10" id="mensagem" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+
+                    <label><input type="radio" name="contato" value="email">Email</label>
+
+                    <label><input type="radio" name="contato" value="telefone">Telefone</label>
+                    
+                    <label><input type="radio" name="contato" value="whatsapp" checked>Whatsapp</label>
+                    
+                </fieldset>
+
+                <label><input class="checkbox" type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <td>Dias</td>
+                        <td>Horários</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img src="satosugu.jpg" class="satosugu">
+            <p class="copy">© Copyright Milktea curiosidades - 2022</p>
+        </footer>
+    </body>
+</html>
