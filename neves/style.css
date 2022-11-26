@@ -15,6 +15,7 @@ header img{
     border-radius: 100px;
 }
 div a button{
+    box-shadow: 5px 2px 2px grey;
     transition: .3s;
     padding: 8px;
     font-size: 20px;
@@ -27,6 +28,7 @@ div a button{
     width: 100px;
 }
 a:hover button{
+    box-shadow: 7px 4px 4px grey;
     transition: .3s;
     font-size: 21px;
     width: 120px;
@@ -37,12 +39,13 @@ a:hover{
 }
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     align-content: space-around;
 }
 main section img{
+    box-shadow: 5px 2px 2px grey;
     height: 400px;
     border-radius: 100px;
 }
@@ -50,14 +53,23 @@ main section{
     transition: .3s;
     display: flex;
     align-items: center;
+    flex-direction: column;
     align-content: space-around;
     gap: 20px;
+    flex-direction: column;
+}
+main section div{
+    transition: .3s;
+    display: flex;
+    align-items: center;
     flex-direction: row;
+    align-content: space-around;
+    gap: 20px;
 }
 main section{
     padding: 15px;
 }
-main section:hover{
+main section div:hover{
     transition: .3s;
     font-size: 19px;
 }
@@ -68,6 +80,8 @@ a{
     color: black;
 }
 h2{
+    text-shadow: 2px 2px 2px grey;
+    padding-right: 10px;
     border-right: .4px solid black;
     font-size: 40px;
 }
@@ -79,6 +93,8 @@ footer{
     padding: 10px;
 }
 footer img{
+    height: 100px;
+    width: 100px;
     border-radius: 100px;
 }
 .copy{
@@ -94,4 +110,33 @@ footer img{
     transition: .3s;
     width: 250px;
     height: 250px;
+}
+.tulipas{
+    padding: 10px;
+    border-left: .4px dashed black;
+}
+.tulipas2{
+    padding: 10px;
+    border-left: .4px dashed black;
+    
+}
+.tulipas img{
+    transition: .3s;
+    box-shadow: 5px 2px 2px grey;
+    border-radius: 10px;
+    height: 500px;
+}
+.tulipas2 img{
+    transition: .3s;
+    box-shadow: 5px 2px 2px grey;
+    border-radius: 10px;
+    height: 500px;
+}
+.tulipas img:hover{
+    transition: .3s;
+    box-shadow: 4px 1px 1px grey;
+}
+.tulipas2 img:hover{
+    transition: .3s;
+    box-shadow: 4px 1px 1px grey;
 }

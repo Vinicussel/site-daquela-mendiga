@@ -18,6 +18,7 @@ header img{
     border-radius: 100px;
 }
 div a button{
+    box-shadow: 5px 2px 2px grey;
     transition: .3s;
     padding: 8px;
     font-size: 20px;
@@ -30,6 +31,7 @@ div a button{
     width: 100px;
 }
 a:hover button{
+    box-shadow: 7px 4px 4px grey;
     transition: .3s;
     font-size: 21px;
     width: 120px;
@@ -42,9 +44,9 @@ main{
     padding-left: 60px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items:flex-start;
-    align-content: space-around;
+    justify-content:center;
+    align-items:center;
+    align-content:space-around;
 }
 main form{
     display: flex;

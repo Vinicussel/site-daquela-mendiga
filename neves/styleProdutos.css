@@ -15,6 +15,7 @@ header img{
     border-radius: 100px;
 }
 div a button{
+    box-shadow: 5px 2px 2px grey;
     transition: .3s;
     padding: 8px;
     font-size: 20px;
@@ -27,13 +28,14 @@ div a button{
     width: 100px;
 }
 a:hover button{
+    box-shadow: 7px 4px 4px grey;
     transition: .3s;
     font-size: 21px;
     width: 120px;
 }
 a:hover{
     transition: .3s;
-    font-size: 23px;
+    font-size: 41px;
 }
 main{
     display: flex;
@@ -63,6 +65,7 @@ main section img{
     box-shadow: 10px 5px 5px rgb(88, 88, 88);
 }
 main section div{
+    font-size: 40px;
     transition: .3s;
     display: flex;
     align-items: center;
@@ -71,7 +74,7 @@ main section div{
     flex-direction: row;
 }
 main section div:hover{
-    font-size: 19px;
+    font-size: 42px;
 }
 main section{
     padding: 15px;
@@ -83,8 +86,9 @@ a{
     color: black;
 }
 h2{
+    text-shadow: 2px 2px 2px grey;
     border-right: .4px solid black;
-    font-size: 40px;
+    font-size: 60px;
 }
 footer{
     display: flex;
@@ -110,4 +114,9 @@ footer img{
     transition: .3s;
     width: 250px;
     height: 250px;
+}
+iframe{
+    box-shadow: 10px 5px 5px grey;
+    height: 300px;
+    width: 600px;
 }
